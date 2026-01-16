@@ -18,9 +18,6 @@ button = st.button("로또 번호 생성해주세요!")
 
 
 
-
-
-
 if button :
     for i in range(1,6) :
         st.subheader(f"{i}번째 추천 로또 번호: {generate_lotto()}")
